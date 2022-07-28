@@ -2,11 +2,7 @@
 
 name: DBCheckInPolicy
 on:
-  workflow_dispatch:
-  pull_request:
-    branches: 
-      - hello-github-actions      
-    types: [opened, synchronize, reopened, edited]
+    pull_request:
               
 jobs:
   analyze:

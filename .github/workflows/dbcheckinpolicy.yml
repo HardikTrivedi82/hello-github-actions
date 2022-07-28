@@ -5,8 +5,7 @@ on:
   workflow_dispatch:
   pull_request:
     branches: 
-      - development-22.2
-      - development-23.1
+      - hello-github-actions      
     types: [opened, synchronize, reopened, edited]
               
 jobs:
